@@ -32,7 +32,7 @@ let var2 = 2
 console.log(var1*var2)
 ```
 
-## INTRO TO COMPUTER SCIENCE
+## WEB 101
 * Web development secara umum mengacu pada tugas-tugas yang berkaitan dengan pengembangan situs web melalui intranet atau internet. Proses web development mencakup desain web, pengembangan konten web, client side atau server-side scripting dan konfigurasi keamanan jaringan serta pemilihan domain terbaik sebelumnya.
 * Secara umum, pengguna akan mengakses suatu website berupa URL melalui Web Browser. Kemudian Web Browser tersebut mengirimkan permintaan HTTP request kepada Web Server melalui TCP/IP, sehingga Web Server akan memberikan Web Files yang diminta
 * Tools dan bahasa pemrograman dalam pengembangan web: HTML, CSS, Javascript.
