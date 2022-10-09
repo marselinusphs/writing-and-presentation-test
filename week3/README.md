@@ -56,3 +56,9 @@ recurse();
 * Cookies adalah data kecil yang dikirim dari situs web dan disimpan di komputer kita oleh web browser saat kita menjelajah. Disebut data kecil karena maksimum data yang dapat disimpan dalam cookies adalah 4096 bytes (4 KB). Biasanya data yang disimpan di cookies adalah access token pengguna saat login atau data pencarian saat melakukan pencarian pada situs web tertentu. Hal ini yang biasanya dilakukan oleh situs pencarian untuk melacak pencarian kita dan menampilkan iklan yang berhubungan dengan pencarian kita sebelumnnya.
 * session storage adalah sebuah penyimpanan data yang hanya bertahan ketika browser tidak ditutup atau tab tidak ditutup, Apabila browser ditutup maka secara otomatis data yang disimpan di session storage akan hilang. Biasanya data yang disimpan disini adalah data yang dimaksudkan agar setelah browser ditutup atau tab didutup data akan hilang. 
 * local storage adalah sebuah penyimpanan data dimana data ini akan terus ada tidak akan pernah bisa terhapus meskipun browser ditutup, komputer dimatikan, data ini bisa hilang apabila anda menjalankan perintah hapus dan browser dilakukan clear data atau cookie juga uninstall
+
+## ASYNCHRONOUS
+* Asynchronous mengizinkan komputer memproses task yang lain sambil menunggu proses yang masih berlangsung.
+* Callback function adalah function yang kita letakan di dalam argumen/parameter pada function, dan function tersebut akan dieksekusi setelah function pertama menyelesaikan tugasnya.
+* Promise adalah salah satu fitur baru di ES6, biasa digunakan untuk melakukan http request/fetch data dari API.
+* Async - await adalah salah satu fitur baru dari javascript yang digunakan untuk menangani hasil dari sebuah Promise. Sedangkan await berfungsi untuk menunda sebuah kode dijalankan sampai proses asynchronous berhasil.
