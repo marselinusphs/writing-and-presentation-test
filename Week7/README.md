@@ -25,9 +25,5 @@ KLP TRACK | 18
 * Authorization adalah proses penentuan apakah user tersebut diizinkan / ditolak untuk melakukan satu atau beberapa action akses terhadap resources tertentu dalam sistem. Contohnya yaitu role admin dan user.
 * Enkripsi adalah proses teknis yang mengonversikan informasi menjadi kode rahasia, sehingga mengaburkan data yang Anda kirim, terima, atau simpan. Tujuan dari proses enkripsi adalah untuk memberikan proteksi pada informasi terkait. Dengan memberikan enkripsi pada informasi atau pesan, maka potensi kebocoran pesan dapat diminimalisir.
 
-
-
-## DESIGN DATABASE
-*	Pada Sistem Perkuliahan, yang menjadi entitas adalah dosen dan mahasiswa, matkul
-*	Attributnya yaitu: Pada Dosen: NIDN, Nama, TTL, Alamat. Pada Mahasiswa: NIM, prodi, fakultas, nama, dll
-*	Relasinya yaitu antara dosen dan matkul adalah one to many. antara mahasiswa dan matkul adalah many to many
+## SEQUELIZE
+* Sequelize adalah Node.js promise-based ORM untuk MySQL, PostgreSQL, SQLite, MSSQL dan database SQL lainnya. Sequelize berfungsi untuk bekerja dengan database dan relasi-relasi di dalamnya
